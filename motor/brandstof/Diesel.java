@@ -1,4 +1,4 @@
-package main.motor.brandstof;
+package motor.brandstof;
 
 public final class Diesel {
 

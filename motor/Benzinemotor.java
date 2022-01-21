@@ -1,6 +1,6 @@
-package main.motor;
+package motor;
 
-import main.motor.brandstof.Benzine;
+import motor.brandstof.Benzine;
 
 public class Benzinemotor implements Motor {
 	

@@ -1,4 +1,4 @@
-package main.motor;
+package motor;
 
 public interface Motor {
 	public String toString();

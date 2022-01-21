@@ -1,6 +1,6 @@
-package main.motor;
+package motor;
 
-import main.motor.brandstof.Diesel;
+import motor.brandstof.Diesel;
 
 public class Dieselmotor implements Motor {
 

@@ -1,6 +1,6 @@
-package main.motor;
+package motor;
 
-import main.motor.brandstof.Elektriciteit;
+import motor.brandstof.Elektriciteit;
 
 public class Elektromotor implements Motor {
 

@@ -1,7 +1,7 @@
-package main.motor;
+package motor;
 
-import main.motor.brandstof.Benzine;
-import main.motor.brandstof.Elektriciteit;
+import motor.brandstof.Benzine;
+import motor.brandstof.Elektriciteit;
 
 public class Hybridemotor implements Motor {
 
