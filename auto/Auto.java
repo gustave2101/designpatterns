@@ -6,9 +6,9 @@ package auto;
 
 public class Auto extends Abstractauto {
 
-	public Auto(String merknaam){
+	public Auto(){
 
-		super(merknaam);
+		super();
 	}
 
 	// private Motor motor;

@@ -2,8 +2,18 @@ package merk;
 
 public class Bmw implements Merk{
     
-    public void setBouwjaar(String b){
+    public String naam = "bmw";
 
-        this.bouwjaar = b;
+    public String toString(){
+
+        return naam;
     }
+    // public void setMerk(Merk m){
+
+
+    // }
+    // public void setBouwjaar(String b){
+
+    //     this.bouwjaar = b;
+    // }
 }

@@ -4,9 +4,9 @@ public class Personenauto extends Auto {
 
     protected int aantal_deuren = 4;
 
-    Personenauto(String merknaam){
+    Personenauto(){
 
-        super(merknaam);
+        super();
     }
 
     public void setAantal_deuren(int d){

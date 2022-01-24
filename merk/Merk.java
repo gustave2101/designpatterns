@@ -4,5 +4,7 @@ public interface Merk {
     
     public String bouwjaar = "";
     
-    public void setBouwjaar(String b);
+    //public void setMerk(Merk m);
+    //public void setBouwjaar(String b);
+    public String toString(); 
 }

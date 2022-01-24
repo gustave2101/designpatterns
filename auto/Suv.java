@@ -3,8 +3,8 @@ package auto;
 public class Suv extends Personenauto{
 
 
-    public Suv(String merknaam){
+    public Suv(){
 
-        super(merknaam);
+        super();
     }
 }
