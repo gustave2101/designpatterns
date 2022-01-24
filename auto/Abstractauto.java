@@ -5,7 +5,7 @@ import motor.Motor;
 
 public class Abstractauto {
     
-    private Motor motor;
+    protected Motor motor;
 	public String merknaam;
 
     public Abstractauto(String merknaam){

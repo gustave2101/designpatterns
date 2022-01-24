@@ -1,7 +1,6 @@
 package auto;
 
-//import main.Abstractauto;
-//import motor.Motor;
+import motor.Motor;
 
 
 public class Auto extends Abstractauto {
@@ -10,19 +9,12 @@ public class Auto extends Abstractauto {
 
 		super(merknaam);
 	}
-
-	// private Motor motor;
-	// public String merknaam = "";
 	
-	// public Auto(String merknaam) {
-	// 	this.merknaam = merknaam;
-	// }
+	public void setMotor(Motor motor) {
+		super.setMotor(motor);
+	}
 	
-	// public void setMotor(Motor motor) {
-	// 	this.motor = motor;
-	// }
-	
-	// public void printAuto() {
-	// 	System.out.println("Merknaam: " + merknaam + " | " + "Motor: " + motor.toString() + " | ");
-	// }
+	public void print() {
+		System.out.println("Merknaam: " + merknaam + " | " + "Motor: " + super.motor.toString() + " | ");
+	}
 }
