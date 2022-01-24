@@ -9,7 +9,7 @@ public class Decorator extends Abstractauto{
 
     Decorator(Abstractauto a){
 
-        super(a.merknaam);
+        super();
     }
 
     public void printAuto(){

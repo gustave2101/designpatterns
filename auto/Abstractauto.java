@@ -1,23 +1,23 @@
 
 package auto;
 
+import merk.Merk;
 import motor.Motor;
 
 public class Abstractauto {
     
     protected Motor motor;
-	public String merknaam;
-
-    public Abstractauto(String merknaam){
-
-        this.merknaam = merknaam;
-    }
+	protected Merk merk;
 
 	public void setMotor(Motor motor) {
 		this.motor = motor;
 	}
 	
-	public void printAuto() {
-		System.out.println("Merknaam: " + merknaam + " | " + "Motor: " + motor.toString() + " | ");
+	public void print() {
+		System.out.println("Merknaam: " + merk.toString() + " | " + "Motor: " + motor.toString() + " | ");
+	}
+
+	public void setMerk(Merk m){
+		this.merk = m;
 	}
 }

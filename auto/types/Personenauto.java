@@ -1,5 +1,9 @@
 package auto.types;
 
-public abstract class Personenauto {
+import auto.Auto;
+
+public abstract class Personenauto extends Auto{
+
+
     
 }

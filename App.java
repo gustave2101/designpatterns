@@ -1,21 +1,23 @@
 import auto.*;
-import motor.*;
 import decorator.*;
-//import main.Abstractauto;
+import fabriek.AbstractFactory;
+import fabriek.FerrariFabriek;
+import fabriek.KiaFabriek;
 import fabriek.Verkoper;
 
 public class App {
 
 	public static void main(String[] args) {
-		Auto auto1 = new Auto("Mercedes");
-		auto1.setMotor(new Benzinemotor());
-
-		Abstractauto a = new Auto("bmw");
+		Abstractauto a = new Auto();
 		a = new Stoelverwarming(a);
-		a.printAuto();
+
+		AbstractFactory ferrarifabriek = new FerrariFabriek();
+		AbstractFactory kiafabriek = new KiaFabriek();
 		
 		Verkoper verkoper1 = new Verkoper("Klaas");
-		verkoper1.addAuto(auto1);
+		verkoper1.addAuto(ferrarifabriek.createCabrio(false));
+		verkoper1.print();
+		verkoper1.addAuto(kiafabriek.createF1(false));
 		verkoper1.print();
 	}
 

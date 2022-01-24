@@ -1,5 +1,8 @@
 package auto.types;
 
-public abstract class Raceauto {
+import auto.Auto;
+
+public abstract class Raceauto extends Auto{
+
     
 }
