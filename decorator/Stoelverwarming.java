@@ -8,6 +8,7 @@ public class Stoelverwarming extends Decorator{
     public Stoelverwarming(Abstractauto a) {
         
         super(a);
+        setNaam(naam);
     }
 
     

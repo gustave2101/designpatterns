@@ -14,7 +14,14 @@ public class App {
 
 		Abstractauto a = new Auto("bmw");
 		a = new Stoelverwarming(a);
+	
 		a.printAuto();
+
+		Personenauto p = new Suv("bla");
+		p.setMotor(new Dieselmotor());
+		p.printAuto();
+		p.setAantal_deuren(8);
+		p.printPersonenAuto();
 		
 	}
 

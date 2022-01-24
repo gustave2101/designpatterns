@@ -2,10 +2,12 @@
 package auto;
 
 import motor.Motor;
+import merk.*;
 
 public class Abstractauto {
     
     private Motor motor;
+	//private Merk merk; 
 	public String merknaam;
 
     public Abstractauto(String merknaam){
@@ -20,4 +22,9 @@ public class Abstractauto {
 	public void printAuto() {
 		System.out.println("Merknaam: " + merknaam + " | " + "Motor: " + motor.toString() + " | ");
 	}
+
+	// public void setMerk(Merk m){
+
+	// 	this.merk = m;
+	// }
 }
